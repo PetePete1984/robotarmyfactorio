@@ -222,7 +222,7 @@ local droid_smg =
               },
               {
                 type = "damage",
-                damage = { amount = 4 , type = "physical"}
+                damage = { amount = 4 * DAMAGE_SCALAR, type = "physical"}
               }
             }
           }
@@ -392,7 +392,7 @@ local droid_rifle =
               },
               {
                 type = "damage",
-                damage = { amount = 10 , type = "physical"}
+                damage = { amount = 10 * DAMAGE_SCALAR, type = "physical"}
               }
             }
           }
